@@ -1,8 +1,8 @@
-# to install news-application(both front end and backedn will be installed)
+# Install news-application (both front end and back-end will be installed)
 npm run install-news-app
 
-# run back-end
+# Start Back-end
 npm run start-back
 
-# run front-end
+# Start Front-end
 npm run start-front
