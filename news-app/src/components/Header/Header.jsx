@@ -46,9 +46,9 @@ export default function Header({ keyWord, handleSetKeyword, setPage }) {
 
       <div className="keywords">
         Trending Topics :
-        {searchKeywords.map((item) => {
+        {searchKeywords.map((item, idx) => {
           return (
-            <span onClick={(e) => handleOnSearchClick(e, item)}>{item}</span>
+            <span key={idx} onClick={(e) => handleOnSearchClick(e, item)}>{item}</span>
           );
         })}
       </div>

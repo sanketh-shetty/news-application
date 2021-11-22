@@ -68,7 +68,11 @@ const fetchNews = (setNews, keyWord, setIsLoading, itemsPerPage, page) => {
       setNews(response.data);
     })
     .catch((err) => {
-      console.log(err);
+      console.log("err",err.message);
+
+      if(err.message === "Network Error"){
+        alert("Unable to connect to the backend. Please make sure that the backend is running...");        
+      }
     })
     .then(() => {
       setIsLoading(false);

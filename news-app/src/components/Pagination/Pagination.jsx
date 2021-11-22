@@ -12,7 +12,7 @@ function Pagination({ page, setPage, totalPages, news, itemsPerPage }) {
   const nextPage = () => {
     if (page * itemsPerPage >= 100)
       alert(
-        "Unable to goto next page. Newsapi developer accounts are limited to a max of 100 results"
+        "News App: Unable to goto next page. Newsapi developer accounts are limited to a max of 100 results"
       );
     else if (page < totalPages) setPage(page + 1);
   };
