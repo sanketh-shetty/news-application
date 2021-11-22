@@ -8,9 +8,9 @@
     "install-front": "cd news-app &&  npm install",
     "install-back": "cd news-api &&  npm install",
     "install-news-app": "npm install && npm run install-back && npm run install-front",
-    "start-front" : "cd news-app && npm start",
-    "start-back" : "cd news-api && npm start",
-    "start-news-app" : "npm run start-back; npm run start-front"
+    "start-front": "cd news-app && npm start",
+    "start-back": "cd news-api && npm start",
+    "start-news-app": "npm run start-back; npm run start-front"
   },
   "repository": {
     "type": "git",
