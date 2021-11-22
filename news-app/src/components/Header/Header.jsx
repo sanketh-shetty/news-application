@@ -15,7 +15,7 @@ export default function Header({ keyWord, handleSetKeyword, setPage }) {
     }
   };
 
-  const searchKeywords = ["Crypto", "Olympics", "Afghanistan"];
+  const trendingTopics = ["Crypto", "Olympics", "Afghanistan"];
 
   return (
     <div className="header">
@@ -46,7 +46,7 @@ export default function Header({ keyWord, handleSetKeyword, setPage }) {
 
       <div className="keywords">
         Trending Topics :
-        {searchKeywords.map((item, idx) => {
+        {trendingTopics.map((item, idx) => {
           return (
             <span key={idx} onClick={(e) => handleOnSearchClick(e, item)}>{item}</span>
           );

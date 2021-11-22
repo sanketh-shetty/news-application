@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
 
 let server = app.listen(process.env.PORT, () => {
   console.log(
-    `Example app listening at http://%s:%s`,
+    `News-App backend running at http://%s:%s`,
     process.env.HOST,
     process.env.PORT
   );
