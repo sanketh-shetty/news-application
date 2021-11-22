@@ -1,0 +1,28 @@
+.pagination-container {
+  background: rgb(37, 3, 117);
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.pagination-container .page {
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  background: rgb(37, 3, 117);
+  color: #ffffff;
+  margin: 0 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: rgb(255, 255, 255) solid 1px;
+}
+
+.pagination-container .page:hover {
+  background-color: rgb(62, 0, 206);
+}
+
+.disabled {
+  cursor: default !important;
+  background: gray !important;
+  /* border: 0 !important; */
+}

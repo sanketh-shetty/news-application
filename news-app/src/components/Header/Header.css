@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:   var(--main-bg-color); 
+    box-shadow: black 1px 1px 4px;
+    position: sticky;
+    top: 0;
+    color: var(--main-text-color);
+    flex-wrap: wrap;
+    padding: 6px 20px;
+}
+
+  
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+    background: var(--main-text-color);
+    color: var(--main-bg-color);
+    border: rgb(25, 1, 80) solid 2px;
+    margin-right: 20px;
+    border-radius: 2px 10px 2px 10px;
+}
+
+.header > *{
+    padding: 5px;
+}
+
+.header .link{
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 0 6px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: var(--main-text-color) solid 1px;
+}
+
+.header .link:hover{   
+    background-color: var(--main-bg-hover-color);
+}
+
+input{
+    padding: 8px;
+    font-size: 16px;
+    width: 400px;
+    outline: none;
+    font-weight: bold;
+}
+
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    border: var(--main-text-color) solid 1px;
+}
+
+button:hover{
+    background-color: var(--main-bg-hover-color);
+
+}
+
+
+
+.seperator{
+    font-size: 44px;
+    border-left: 1px solid rgb(245, 245, 245);
+    height: 45px;
+}
+
+.keywords{
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.keywords span{
+    padding: 5px 10px;
+    margin: 5px;
+    background: rgb(219, 217, 217);
+    color: #000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.keywords span:hover{
+    background: var(--main-text-color);
+}
+
+@media only screen and (max-width: 700px) {
+    input{
+        width: 98%;
+    }   
+  } 
