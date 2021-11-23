@@ -5,7 +5,7 @@ goto the `news-application-CN` directory and run below commands
 # Install news-application
 ### `npm run install-news-app`
 
-# Run Back-end applicationac
+# Run Back-end application
 ### `npm run start-back`
 
 
